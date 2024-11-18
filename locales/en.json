@@ -1,0 +1,447 @@
+{
+  "seo": {
+    "metaTitle": "DEV-TEMPLATE-SEO",
+    "metaDescription": "DEV-TEMPLATE-SEO",
+    "metaImageUrl": "DEV-TEMPLATE-SEO",
+    "keywords": "DEV-TEMPLATE-SEO",
+    "metaRobots": "DEV-TEMPLATE-SEO",
+    "applicationName": "DEV-TEMPLATE-SEO",
+    "siteName": "DEV-TEMPLATE-SEO",
+    "email": "DEV-TEMPLATE-SEO",
+    "twitter": {
+      "card": "DEV-TEMPLATE-SEO",
+      "title": "DEV-TEMPLATE-SEO",
+      "description": "DEV-TEMPLATE-SEO",
+      "siteId": "DEV-TEMPLATE-SEO",
+      "creator": "DEV-TEMPLATE-SEO",
+      "creatorId": "DEV-TEMPLATE-SEO",
+      "imageUrl": "DEV-TEMPLATE-SEO"
+    }
+  },
+  "general": {
+    "noOptionsAvailable": "No options available",
+    "search": "Search",
+    "loading": "Loading",
+    "cancel": "Cancel",
+    "close": "Close",
+    "submitForm": "Submit",
+    "saveChanges": "Save changes"
+  },
+
+  "comps": {
+    "fileInput": {
+      "label": "Select file",
+      "dragAndDrop": "Add file by dragging or select by clicking",
+      "validFileTypes": "File must be in {validFileTypes} format",
+      "wrongFileType": "This file type is not supported",
+      "selectedFile": "Selected file: {fileName}",
+      "removeFile": "Remove file"
+    },
+    "datePicker": {
+      "label": "Select date"
+    },
+    "dateRangePicker": {
+      "label": "Select date range"
+    },
+    "themeToggle": {
+      "label": "Toggle theme"
+    },
+    "dialog": {
+      "confirmClose": "Do you want to close the dialog? You will lose all unsaved changes."
+    }
+  },
+
+  "tables": {
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "lastPage": "Last page",
+    "firstPage": "First page",
+    "rowsPerPage": "Rows per page",
+    "pageXOfY": "Page {x} of {y}",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "noData": "No data"
+  },
+
+  "errors": {
+    "global": {
+      "title": "An unknown error occurred",
+      "tryAgain": "Try again",
+      "invalidContent": "This content could not be displayed",
+      "somethingWentWrong": "Something went wrong 🥺"
+    },
+
+    "notFound": {
+      "title": "Page not found",
+      "description": "The page you are looking for was not found.",
+      "solution": "Please check if you have entered the correct URL or return to the home page.",
+      "redirect": "Go to home page"
+    },
+
+    "forms": {
+      "errorsInForm": "The form contains errors",
+      "checkFormForErrors": "Please check if any values are missing"
+    },
+
+    "zodValidation": {
+      "invalid_type": "Expected type is {expected}, but received {received}",
+      "invalid_type_received_undefined": "Field is required",
+      "invalid_literal": "Invalid value, expected {expected}",
+
+      "invalid_string": {
+        "regex": "Invalid format"
+      },
+      "too_small": {
+        "string": {
+          "exact": "String must be exactly {minimum} characters",
+          "inclusive": "String must be at least {minimum} characters",
+          "not_inclusive": "String must be more than {minimum} characters"
+        },
+        "number": {
+          "exact": "Value must be exactly {minimum}",
+          "inclusive": "Minimum value is {minimum}",
+          "not_inclusive": "Number must be greater than {minimum}"
+        }
+      },
+      "too_big": {
+        "string": {
+          "exact": "String must be exactly {maximum} characters",
+          "inclusive": "String must be at most {maximum} characters",
+          "not_inclusive": "String must be less than {maximum} characters"
+        },
+        "number": {
+          "exact": "Value must be exactly {maximum}",
+          "inclusive": "Maximum value is {maximum}",
+          "not_inclusive": "Number must be less than {maximum}"
+        }
+      },
+      "custom": {
+        "password": "Passwords do not match",
+        "passwordWithNumber": "String must contain at least 1 number",
+        "phoneNumber": "This field must contain 9 numbers"
+      }
+    },
+
+    "http": {
+      "400": "Something went wrong. Please try again or contact support.",
+      "401": "Session expired. Please sign in again.",
+      "403": "You do not have access to this data",
+      "404": "Requested data not found.",
+      "408": "Request timed out. Please try again.",
+      "413": "You are uploading a file that is too large.",
+      "415": "The file you are uploading is of an unsupported type.",
+      "429": "You have sent too many requests.",
+      "500": "Server is unavailable or something went wrong. Please try again or contact support.",
+      "503": "Server is unavailable. Please try again or contact support"
+    }
+  },
+
+  "localeLayout": {
+    "title": "Turbine"
+  },
+  "footer": {
+    "links": {
+      "about": "About toorbeen",
+      "article": "Attraction Article",
+      "pathFinder": "Path Finder",
+      "travelMaker": "Travel maker",
+      "attractions": "Attractions",
+      "souvenirsAndFood": "Souvenirs and food",
+      "celebrationsAndEvents": "Celebrations and events",
+      "tours": "Tours"
+    },
+    "goUp": "Top of the page",
+    "stayInTouch": "Stay in touch"
+  },
+  "header": {
+    "menu": {
+      "pathFinder": "Path Finder",
+      "travelMaker": "Travel Maker",
+      "news": "News",
+      "aboutUs": "About Us"
+    },
+    "modeSwitcher": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "localeSwitcher": {
+      "en": "English",
+      "fa": "Farsi"
+    },
+    "login/register": "Login/Register"
+  },
+  "landingPage": {
+    "hero": {
+      "header": {
+        "top": "A comprehensive platform for nature tourism and short-term trips",
+        "bottom": "Based on artificial intelligence"
+      }
+    },
+    "primaryFeatures": {
+      "features": "Platform's features",
+      "souvenirsAndFood": "Souvenirs and food",
+      "tourismPlaces": "Tourism places",
+      "celebrationsAndEvents": "Celebrations and events",
+      "travelMaker": "Travel maker",
+      "routeFinder": "Route finder"
+    },
+    "featureDetails": {
+      "about": {
+        "title": "About Toorbin",
+        "description": "Rituals, celebrations and ethnic, historical and national events by city and province.",
+        "readMore": "Read more"
+      },
+      "routeFinder": {
+        "title": "Route finder",
+        "description": "Finding the best travel route and estimating travel time with toorbin",
+        "form": {
+          "origin": {
+            "title": "Origin",
+            "placeholder": "Enter the city of origin."
+          },
+          "destination": {
+            "title": "Destination",
+            "placeholder": "Enter the city of destination",
+            "button": "add destination"
+          },
+          "submit": "Search path"
+        }
+      },
+      "travelMaker": {
+        "title": "Travel Maker",
+        "description": "Suggesting the best travel plan according to your conditions and characteristics",
+        "form": {
+          "origin": {
+            "title": "Origin",
+            "placeholder": "Select the starting city."
+          },
+          "distance": {
+            "title": "Distance",
+            "placeholder": "Select an interval."
+          },
+          "passengers": {
+            "title": "Passengers",
+            "placeholder": "Select the number of passengers."
+          },
+          "duration": {
+            "title": "Duration",
+            "placeholder": "Select the duration of the trip."
+          },
+          "vehicle": {
+            "title": "Vehicle",
+            "placeholder": "Select the vehicle.",
+            "options": {
+              "car": "Car",
+              "train": "Train",
+              "plane": "Plane"
+            }
+          },
+          "style": {
+            "title": "Style",
+            "placeholder": "Select the style."
+          },
+          "direction": {
+            "title": "Direction",
+            "placeholder": "Select the direction.",
+            "options": {
+              "north": "North",
+              "south": "South",
+              "east": "East",
+              "west": "West"
+            }
+          },
+          "submit": "Give suggestion"
+        }
+      },
+      "souvenirsAndFood": {
+        "title": "Souvenirs and food",
+        "description": "souvenirs, drinks and local dishes of Iran's different cities and ethnicities to cook their recipes",
+        "form": {
+          "food": {
+            "title": "Food",
+            "placeholder": "Enter the name of the food or drink."
+          },
+          "city": {
+            "title": "City",
+            "placeholder": "Enter the name of the city or ethnicity."
+          },
+          "submit": "Search",
+          "goTo": "Souvenirs and Food page"
+        }
+      },
+      "celebrationsAndEvents": {
+        "title": "Celebrations and events",
+        "description": "Rituals, celebrations and ethnic, historical and national events by city and province.",
+        "form": {
+          "occasion": {
+            "title": "Occasion",
+            "placeholder": "Enter occasion or event."
+          },
+          "month": {
+            "title": "Month",
+            "placeholder": "Select a month",
+            "options": {
+              "farvardin": "Farvardin",
+              "ordibehesht": "Ordibehesht",
+              "khordad": "Khordad",
+              "tir": "Tir",
+              "mordad": "Mordad",
+              "shahrivar": "Shahrivar",
+              "mehr": "Mehr",
+              "aban": "Aban",
+              "azar": "Azar",
+              "day": "Day",
+              "bahman": "Bahman",
+              "esfand": "Esfand"
+            }
+          },
+          "submit": "Search",
+          "goTo": "Celebrations and events page"
+        }
+      }
+    },
+    "tourismPlaces": {
+      "title": "Tourism places",
+      "goTo": "Tourism places page"
+    }
+  },
+  "notFoundPage": {
+    "title": "404 Not Found",
+    "destination": "You've gone the wrong way!"
+  },
+
+  "travelMaker": {
+    "form": {
+      "validateError": {
+        "origin": "origin is required",
+        "distance": "distance is required",
+        "place": "place is required",
+        "duration": "duration is required",
+        "date": "date is required",
+        "route": "route is required",
+        "routeState": "route state is required"
+      },
+
+      "origin": { "title": "origin travel", "placeholder": "origin travel" },
+      "date": { "title": "Date" },
+      "distance": {
+        "title": "distance from the origin",
+        "placeholder": "select distance",
+        "select": {
+          "3h": "To be away from the origin for 3 hours",
+          "5h": "To be away from the origin for 5 hours",
+          "7h": "To be away from the origin for 7 hours"
+        }
+      },
+      "place": {
+        "placeholder": "Select like your place ",
+        "selectAll": "Select All",
+        "search": "Search...",
+        "select": {
+          "title-nature-placeHolder": "nature",
+          "shadowAndGreen": "Shadow & Green",
+          "sunnyAndSea": "Sunny & Sea",
+          "MountainAndDesert": "Mountain & Desert",
+          "Entertainment": "Entertainment",
+          "HistoryAndCulture": "History & Culture"
+        }
+      },
+      "duration": {
+        "title": "travel duration",
+        "placeholder": "select duration",
+        "select": {
+          "1d": "1 day",
+          "2d": "2 day",
+          "3d": "3 day"
+        }
+      },
+      "travelStartDate": {
+        "title": "travel start date"
+      },
+      "route": {
+        "title": "route type",
+        "placeholder": "select route",
+        "select": {
+          "easy": "Easy",
+          "hard": "Hard",
+          "none": "No walking"
+        }
+      },
+      "destination-state": {
+        "title": "stop in route",
+        "placeholder": "select stop in route",
+        "select": {
+          "oneWay": "One-way: we go directly to the destination and stop there",
+          "multiple": "Multiple destinations: We visit and pass several destinations and attractions"
+        }
+      },
+      "vehicle": {
+        "title": "Vehicle",
+        "placeholder": "Select the vehicle.",
+        "select": {
+          "car": "Normal Car",
+          "bicycle": "bicycle",
+          "bus": "Van or minibus",
+          "off-road": "off-road vehicle",
+          "Car-offroad": "Normal car - Off-road vehicle",
+          "offroad-bicycle": "Off-road vehicle - Bicycle",
+          "car-bicycle": "Normal car - Bicycle'",
+          "nissan-car": "Nissan - Normal car"
+        }
+      },
+      "travel-direction": {
+        "title": "direction of travel",
+        "placeholder": "Select the direction",
+        "select": {
+          "north": "to the north",
+          "south": "to the south",
+          "west": "to the west",
+          "east": "to the east"
+        }
+      },
+      "oldPerson": {
+        "title": "number of elderly",
+        "placeholder": "number"
+      },
+      "accommodation": {
+        "title": "Type of accommodation",
+        "placeholder": "select",
+        "accommodationSelect": {
+          "camp": "Camp",
+          "hotel": "Hotel",
+          "visit": "Visit"
+        }
+      },
+
+      "Button": "Submit",
+      "popover-button": "optional",
+      "noResults": "No result found",
+      "tryAnother": "Try another combination",
+      "form-header": {
+        "title": " travel maker",
+        "text": "By answering the following questions, you will help the tourbin to create an excellent travel plan and a pure and memorable experience for you with the help of Turbine artificial intelligence, like an experienced and knowledgeable tour leader.",
+        "fillForm": "Fill the form"
+      }
+    },
+    "card": {
+      "seeMore": "See more"
+    },
+    "package": { "mapOpen": "open map", "mapClose": "close map" }
+  },
+  "PathFinder": {
+    "origin": { "title": "origin", "placeHolder": "Enter the origin" },
+    "destination": {
+      "title": "Destination",
+      "placeHolder": "Enter the Destination"
+    },
+    "submit": "submit",
+    "addDestination": "Add Destination"
+  },
+  "blogCategory": {
+    "title": "Categoryes",
+    "place": "Places",
+    "food": "Food and Souvenirs",
+    "event": "Events"
+  }
+}
